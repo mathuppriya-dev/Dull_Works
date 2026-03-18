@@ -1,0 +1,60 @@
+/*Reset*/
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(120, 63, 218);
+    padding: 10px 20px;
+}
+.logo{
+    color: black;
+    font-size: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+/*Main Container*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+/*Card*/
+.card{
+    background-color: rgb(120, 63, 218);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+.card button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/*Responsive*/
+@media (max-width:600px){
+    .navbar{
+        flex-direction: column;
+    }
+    .menu{
+margin-top: 10px;
+    }
+    .container{
+        height: auto;
+        margin-top: 40px;
+    }
+    
+}
